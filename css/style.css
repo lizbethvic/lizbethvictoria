@@ -1,0 +1,37 @@
+/*======================================
+
+
+Universal Styling
+
+======================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2a2236;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+
+/*======================================
+
+
+Nav Menu Styling
+
+======================================*/
+
+
+.menu > ul > li {
+  display: inline-block;
+  background: #0d0a15;
+  width:20%;
+  margin-bottom: 1px;
+  position: relative;
+  vertical-align: top;
+}
