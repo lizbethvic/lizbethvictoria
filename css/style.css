@@ -176,6 +176,38 @@ Hero Slider Styling
 /*======================================
 
 
+About Styling
+
+======================================*/
+.about {
+    display: inline;
+    width: 100%;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+    padding: 60px 0 0 90px;
+}
+
+.about p{
+    max-width: 820px;
+    padding: 20px 0 114px 97px;
+    color: white;
+    text-transform: none;
+    line-height: 24px;
+}
+
+img.about-me {
+    float: right;
+    width: 550px;
+    margin: -541px 115px 0 -682px
+}
+
+
+/*======================================
+
+
 Footer Styling
 
 ======================================*/
@@ -193,7 +225,7 @@ footer {
 footer p {
   color: white;
   padding-left: 50px;
-  padding-top: 11px;
+  padding-top: 30px;
 }
 
 .button {
