@@ -211,12 +211,118 @@ Contact Styling
 
 ======================================*/
 
+section.contact-form {
+    display: inline;
+    background: #2a2236,
+}
 
 .kiara {
   float: left;
   width: 550px;
+  margin: 12px 28px 48px 98px;
 }
 
+.container-right {
+  float: right;
+  padding: 48px 150px 80px;
+  width: 900px;
+}
+
+h2.free {
+  color: white;
+  font-size: 45px;
+  font-weight: 400;
+  padding-bottom: 9px;
+}
+
+input {
+  background: #9f8acd;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.input-section {
+  margin-bottom: 10px;
+}
+
+.name,
+.email {
+  display: inline;
+}
+
+.name input[type=text],
+.email input[type=email]{
+  width: 49.5%;
+  height: 43px;
+}
+
+.subject input[type=text] {
+  width: 100%;
+  height: 43px;
+  margin-top: 13px;
+}
+
+textarea {
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  height: 227px;
+  padding: 19px;
+  border-radius: 4px;
+  background: #d5cce8;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: white;
+}
+
+::-ms-input-placeholder {
+  color: white;
+}
+
+textarea::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+textarea:-ms-input-placeholder {
+  color: black;
+}
+
+textarea::-ms-input-placeholder {
+  color: black;
+}
+
+
+.reset,
+.submit {
+  display: inline;
+}
+
+input[type="reset"],
+input[type="submit"] {
+  width: 49.5%;
+  height: 41px;
+}
+
+.reset input:hover,
+.submit input:hover{
+  background: #0d0a15;
+  color: white;
+}
+
+h1.cont {
+    font-size: 38px;
+    visibility: hidden;
+}
 /*======================================
 
 
@@ -227,6 +333,9 @@ Footer Styling
 footer {
   display: inline;
   bottom: 0;
+  position: fixed;
+  background: #0d0a15;
+  width: 100%;
 }
 
 .socials {

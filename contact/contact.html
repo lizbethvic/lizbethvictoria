@@ -43,54 +43,57 @@
 
     <main class="container">
 
-    <div class="container-left">
-     <img src="contact-images/kiara.PNG" class="kiara" alt="kiara" title="kiara"/>
+     <section class="contact-form">
+      <div class="container-left">
+       <img src="contact-images/kiara.PNG" class="kiara" alt="kiara" title="kiara"/>
+      </div>
+
+      <div class="container-right">
+
+       <h2 class="free">Contact me</h2>
+
+       <form id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+
+         <div class= "name input-section">
+
+           <input type="text" name="name" id="name" placeholder="Full Name"/>
+
+         </div>
+
+         <div class="email input-section">
+
+           <input type="email" name="email" id="email" placeholder="Email"/>
+
+         </div>
+
+         <div class= "subject input-section">
+
+           <input type="text" name="subject" id="subject" placeholder="Subject"/>
+
+         </div>
+
+         <div class="comments input-section">
+
+           <textarea name= "comments" id="comments" cols="55" rows="5" placeholder="Type message here"></textarea>
+
+         </div>
+
+         <div class="reset input-section">
+          <input type="reset" value="Refresh"/>
+         </div>
+
+         <div class="submit input-section">
+          <input type="submit" value="Submit Request"/>
+         </div>
+
+
+       </form>
+     </section>
+
+
     </div>
 
-    <div class="container-right">
-
-     <form id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
-
-       <div class= "name input-section">
-
-         <input type="text" name="name" id="name" placeholder="Full Name"/>
-
-       </div>
-
-       <div class="email input-section">
-
-         <input type="email" name="email" id="email" placeholder="example@example.com"placeholder="Email"/>
-
-       </div>
-
-       <div class= "subject input-section">
-
-         <input type="text" name="subject" id="subject" placeholder="Subject"/>
-
-       </div>
-
-       <div class="comments input-section">
-
-         <textarea name= "comments" id="comments" cols="55" rows="5" placeholder="Type message here"></textarea>
-
-       </div>
-
-       <div class="reset input-section">
-         <input type="reset" value="Refresh"/>
-       </div>
-
-       <div class="submit input-section">
-         <input type="submit" value="Submit Request"/>
-       </div>
-
-
-     </form>
-
-     <h1>Commission Request</h1>
-
-   </div>
-
-
+     <h1 class="cont">Feel free to contact me</h1>
     </main>
 
     <footer>
