@@ -13,9 +13,10 @@ Universal Styling
 }
 
 body {
-  background: #2a2236;
+  background: #0d0a15;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
+  margin-top: 150px;
 }
 
 
@@ -28,10 +29,16 @@ Nav Menu Styling
 
 header{
   display:inline;
-  width: 100%;
   background: #0d0a15;
+  top: 0;
 }
 
+nav.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #0d0a15;
+}
 
 .menu ul {
   list-style: none;
@@ -42,6 +49,7 @@ header{
   background: #0d0a15;
   width: 350px;
   float: left;
+  position:static;
 }
 
 .menu > ul {
@@ -54,7 +62,7 @@ header{
   margin-bottom: 1px;
   position: relative;
   vertical-align: top;
-  padding: 0px 50px;
+  padding: 0 50px;
 
 }
 
@@ -63,15 +71,15 @@ header{
 }
 
 .menu > ul > li:nth-child(1) {
-  border-left: 0px;
+  border-left: 0;
 }
 
 .menu > ul > li:nth-child(2) {
-  padding: 0px 40px;
+  padding: 0 40px;
 }
 
 .menu > ul > li:nth-child(3) {
-  padding: 0px 60px;
+  padding: 0 60px;
   text-align: center;
 }
 
@@ -96,12 +104,12 @@ header{
   background: #9f8acd;
   position: absolute;
   text-align: center;
-  margin: 0px -60px;
-  padding: 0px 21px;
+  margin: 0 -60px;
+  padding: 0 21px;
 }
 
 .sub-menu ul li {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .menu-item:hover .sub-menu {
@@ -110,4 +118,16 @@ header{
 
 ul.sub-menu li:hover {
     background: #2a2236;
+}
+
+/*======================================
+
+
+Main Body Styling
+
+======================================*/
+
+.container {
+  margin-top: 153px;
+  background: #2a2236;
 }
