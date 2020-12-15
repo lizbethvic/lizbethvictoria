@@ -172,3 +172,33 @@ Hero Slider Styling
     font-size: 50px;
     font-weight: bold;
 }
+
+/*======================================
+
+
+Footer Styling
+
+======================================*/
+
+footer {
+  display: inline;
+}
+
+.socials {
+    margin-top: -51px;
+    margin-right: 24px;
+}
+
+footer p {
+  color: white;
+  padding-left: 50px;
+  padding-top: 11px;
+}
+
+.button {
+  float: right;
+}
+
+img.button {
+    width: 80px;
+}
