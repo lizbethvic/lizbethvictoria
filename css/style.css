@@ -38,6 +38,7 @@ nav.menu {
     top: 0;
     width: 100%;
     background: #0d0a15;
+    z-index: 100;
 }
 
 .menu ul {
@@ -130,4 +131,44 @@ Main Body Styling
 .container {
   margin-top: 153px;
   background: #2a2236;
+  max-width: 1580px;
+}
+
+/*======================================
+
+
+Hero Slider Styling
+
+======================================*/
+
+.slick-slide {
+  position: relative;
+  z-index: -2;
+}
+
+.hero-slider img {
+  width: 100%;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.slick-prev {
+    left: 10px;
+    z-index: 1;
+}
+
+.slick-prev::before {
+    content: "<";
+    color: #9f8acd;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.slick-next::before {
+    content: ">";
+    color: #9f8acd;
+    font-size: 50px;
+    font-weight: bold;
 }
