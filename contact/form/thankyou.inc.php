@@ -124,7 +124,12 @@ Main Body Styling
 .container {
   margin-top: 153px;
   background: #2a2236;
-  max-width: 1580px;
+  max-width: 100%;
+  height: 500px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 122px;
+  color: white;
 }
 
 h2,
@@ -203,7 +208,7 @@ img.button:active {
 
 <div class="container">
   <h1>Thank you for your enquiry</h1>
-  <p>Thanks for your interest. We have received your message, and we will be in touch shortly. Have a lovely day!</p>
+  <p>Thanks for your interest. We have received your message, and we will be in touch shortly. <br> Have a lovely day!</p>
 </div>
 
 <footer>

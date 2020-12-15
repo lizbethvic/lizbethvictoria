@@ -124,7 +124,12 @@ Main Body Styling
 .container {
   margin-top: 153px;
   background: #2a2236;
-  max-width: 1580px;
+  max-width: 100%;
+  height: 500px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 122px;
+  color: white;
 }
 
 h2,
