@@ -26,12 +26,88 @@ Nav Menu Styling
 
 ======================================*/
 
+header{
+  display:inline;
+  width: 100%;
+  background: #0d0a15;
+}
+
+
+.menu ul {
+  list-style: none;
+  float: right;
+}
+
+.logo {
+  background: #0d0a15;
+  width: 350px;
+  float: left;
+}
+
+.menu > ul {
+  padding-top: 50px;
+}
 
 .menu > ul > li {
   display: inline-block;
   background: #0d0a15;
-  width:20%;
   margin-bottom: 1px;
   position: relative;
   vertical-align: top;
+  padding: 0px 50px;
+
+}
+
+.menu > ul > li{
+  border-left: 5px solid white;
+}
+
+.menu > ul > li:nth-child(1) {
+  border-left: 0px;
+}
+
+.menu > ul > li:nth-child(2) {
+  padding: 0px 40px;
+}
+
+.menu > ul > li:nth-child(3) {
+  padding: 0px 60px;
+  text-align: center;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+
+}
+
+.menu ul li a:hover {
+  border-bottom: 4px solid #9f8acd;
+}
+
+.menu ul li a:active {
+  color: #9f8acd;
+}
+
+.sub-menu {
+  display: none;
+  background: #9f8acd;
+  position: absolute;
+  text-align: center;
+  margin: 0px -60px;
+  padding: 0px 21px;
+}
+
+.sub-menu ul li {
+  margin-top: 0px;
+}
+
+.menu-item:hover .sub-menu {
+  display:block;
+}
+
+ul.sub-menu li:hover {
+    background: #2a2236;
 }
