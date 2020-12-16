@@ -132,6 +132,7 @@ Main Body Styling
   margin-top: 153px;
   background: #2a2236;
   max-width: 1580px;
+
 }
 
 /*======================================
@@ -216,8 +217,13 @@ section.contact-form {
     background: #2a2236,
 }
 
+.container-left {
+  float: right;
+  background: #2a2236;
+}
+
 .kiara {
-  float: left;
+  float: right;
   width: 550px;
   margin: 12px 28px 48px 98px;
 }
@@ -226,6 +232,7 @@ section.contact-form {
   float: right;
   padding: 48px 150px 80px;
   width: 900px;
+  background: #2a2236;
 }
 
 h2.free {
