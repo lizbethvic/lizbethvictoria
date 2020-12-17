@@ -208,6 +208,97 @@ img.about-me {
 /*======================================
 
 
+Storyboards Styling
+
+======================================*/
+
+.center{
+  text-align: center;
+  padding: 45px;
+}
+
+.story {
+  display:inline;
+  width: 100%;
+}
+
+h2.titles {
+  color: white;
+  width: 600px;
+  text-align: right;
+  padding-bottom: 2px;
+}
+
+p.desc {
+  color: white;
+  text-transform: none;
+  width: 600px;
+  font-size: 19px;
+  font-weight: 200;
+  text-align: right;
+  padding-bottom: 9px;
+}
+
+h2.titles-left {
+  color: white;
+  width: 600px;
+  text-align: left;
+  padding-bottom: 2px;
+}
+
+p.desc-left {
+  color: white;
+  text-transform: none;
+  width: 600px;
+  font-size: 19px;
+  font-weight: 200;
+  text-align: left;
+  padding-bottom: 9px;
+}
+
+.boy {
+    width: 300px;
+}
+
+.des {
+    width: 300px;
+}
+
+.cafe {
+    width: 282px;
+}
+
+.storyboard-left {
+  height: 549px;
+  float: left;
+  background: #2a2236;
+  padding-right: 39px;
+}
+
+.storyboard-right {
+  height: 549px;
+  float: right;
+  background: #2a2236;
+}
+
+.right {
+  width: 741px;
+  float: right;
+  background: #2a2236;
+  padding-left: 50px;
+  padding-bottom: 32px;
+}
+
+.left {
+  width: 741px;
+  background: #2a2236;
+  padding-left: 40px;
+  padding-bottom: 90px;
+}
+
+/*======================================
+
+
 Contact Styling
 
 ======================================*/
@@ -218,12 +309,12 @@ section.contact-form {
 }
 
 .container-left {
-  float: right;
+  float: left;
   background: #2a2236;
 }
 
 .kiara {
-  float: right;
+  float: left;
   width: 550px;
   margin: 12px 28px 48px 98px;
 }
