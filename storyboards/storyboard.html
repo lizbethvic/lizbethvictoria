@@ -14,6 +14,9 @@
 
 <!---CSS-->
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+    <link href="../lightbox/dist/css/lightbox.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   </head>
 
@@ -54,14 +57,15 @@
        <div class="right">
          <h2 class="titles"> Little Boy: Ben Eagle Sequence </h2>
            <p class="desc">At his show, Ben Eagle searches for the chosen one.<br> And the one he found was a little boy?<br> Practice Storyboard using the script from the movie Little Boy.</p>
-
-           <img src="storyboards-images/boy01.PNG" class="boy one" alt="boy 1" title="boy 1"/>
-           <img src="storyboards-images/boy02.PNG" class="boy two" alt="boy 2" title="boy 2"/>
-           <img src="storyboards-images/boy03.PNG" class="boy three" alt="boy 3" title="boy 3"/>
-           <img src="storyboards-images/boy04.PNG" class="boy four" alt="boy 4" title="boy 4"/>
+         <section class="gallery">
+           <a href="storyboards-images/boy01.PNG" data-lightbox="eagle"><img src="storyboards-images/boy01.PNG" class="boy one" alt="boy 1" title="boy 1"/></a>
+           <a href="storyboards-images/boy02.PNG" data-lightbox="eagle"><img src="storyboards-images/boy02.PNG" class="boy two" alt="boy 2" title="boy 2"/></a>
+           <a href="storyboards-images/boy03.PNG" data-lightbox="eagle"><img src="storyboards-images/boy03.PNG" class="boy three" alt="boy 3" title="boy 3"/></a>
+           <a href="storyboards-images/boy04.PNG" data-lightbox="eagle"><img src="storyboards-images/boy04.PNG" class="boy four" alt="boy 4" title="boy 4"/></a>
+         </section>
         </div>
      </div>
-     
+
      <div class="story cafecon">
 
        <div class="storyboard-right">
@@ -72,10 +76,12 @@
          <h2 class="titles-left"> Café con Pan </h2>
             <p class="desc-left">A little girl and her grandmother embarks on the journey of life.<br> Filled with fun, love and a little bit of coffee</p>
 
-             <img src="storyboards-images/cafe01.PNG" class="cafe one" alt="cafe 1" title="cafe 1"/>
-             <img src="storyboards-images/cafe02.PNG" class="cafe two" alt="cafe 2" title="cafe 2"/>
-             <img src="storyboards-images/cafe03.PNG" class="cafe three" alt="cafe 3" title="cafe 3"/>
-             <img src="storyboards-images/cafe04.PNG" class="cafe four" alt="cafe 4" title="cafe 4"/>
+         <section class="gallery">
+             <a href="storyboards-images/cafe01.PNG" data-lightbox="pan"><img src="storyboards-images/cafe01.PNG" class="cafe one" alt="cafe 1" title="cafe 1"/></a>
+             <a href="storyboards-images/cafe02.PNG" data-lightbox="pan"><img src="storyboards-images/cafe02.PNG" class="cafe two" alt="cafe 2" title="cafe 2"/></a>
+             <a href="storyboards-images/cafe03.PNG" data-lightbox="pan"><img src="storyboards-images/cafe03.PNG" class="cafe three" alt="cafe 3" title="cafe 3"/></a>
+             <a href="storyboards-images/cafe04.PNG" data-lightbox="pan"><img src="storyboards-images/cafe04.PNG" class="cafe four" alt="cafe 4" title="cafe 4"/></a>
+         </section>
         </div>
      </div>
 
@@ -89,10 +95,12 @@
          <h2 class="titles"> Destinies Intertwined </h2>
            <p class="desc"> Fan Storyboard inspired by the video game Kingdom Hearts 3 Reimagining and extended version of the ending</p>
 
-           <img src="storyboards-images/des01.PNG" class="des 1" alt="des 1" title="des 1"/>
-           <img src="storyboards-images/des02.PNG" class="des 2" alt="des 2" title="des 2"/>
-           <img src="storyboards-images/des03.PNG" class="des 3" alt="des 3" title="des 3"/>
-           <img src="storyboards-images/des04.PNG" class="des 4" alt="des 4" title="des 4"/>
+         <section class="gallery">
+           <a href="storyboards-images/des01.PNG" data-lightbox="inter"><img src="storyboards-images/des01.PNG" class="des 1" alt="des 1" title="des 1"/></a>
+           <a href="storyboards-images/des02.PNG" data-lightbox="inter"><img src="storyboards-images/des02.PNG" class="des 2" alt="des 2" title="des 2"/></a>
+           <a href="storyboards-images/des03.PNG" data-lightbox="inter"><img src="storyboards-images/des03.PNG" class="des 3" alt="des 3" title="des 3"/></a>
+           <a href="storyboards-images/des04.PNG" data-lightbox="inter"><img src="storyboards-images/des04.PNG" class="des 4" alt="des 4" title="des 4"/></a>
+         </section>
        </div>
      </div>
 
@@ -111,5 +119,9 @@
       </div>
 
     </footer>
+
+<!---JS-->
+   <script type="text/javascript" src="../js/script.js"></script>
+   <script src="../lightbox/dist/js/lightbox.js"></script>
 
   </body>
