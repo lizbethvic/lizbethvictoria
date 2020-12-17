@@ -299,6 +299,29 @@ p.desc-left {
 /*======================================
 
 
+Art Styling
+
+======================================*/
+
+.life-gallery {
+  margin: 0 auto;
+  width: 93%;
+}
+
+.life {
+  height: 450px;
+}
+
+.d3, .d5, .d6 {
+  height: 485px;
+}
+
+.d8, .d9, .d10 {
+    height: 574px;
+}
+/*======================================
+
+
 Contact Styling
 
 ======================================*/
@@ -417,7 +440,7 @@ input[type="submit"] {
   color: white;
 }
 
-h1.cont {
+.cont {
     font-size: 38px;
     visibility: hidden;
 }
