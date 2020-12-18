@@ -48,9 +48,10 @@ nav.menu {
 
 .logo {
   background: #0d0a15;
-  width: 350px;
+  width: 255px;
   float: left;
   position:static;
+  margin: 4px 0 5px 25px;
 }
 
 .menu > ul {
@@ -60,11 +61,10 @@ nav.menu {
 .menu > ul > li {
   display: inline-block;
   background: #0d0a15;
-  margin-bottom: 1px;
+  margin-bottom: 26px;
   position: relative;
-  vertical-align: top;
   padding: 0 50px;
-
+  font-size: 13px
 }
 
 .menu > ul > li{
@@ -105,8 +105,8 @@ nav.menu {
   background: #9f8acd;
   position: absolute;
   text-align: center;
-  margin: 0 -60px;
-  padding: 0 21px;
+  margin: 0 -58px;
+  padding: 0 27px;
 }
 
 .sub-menu ul li {
@@ -129,7 +129,7 @@ Main Body Styling
 ======================================*/
 
 .container {
-  margin-top: 153px;
+  margin-top: -20px;
   background: #2a2236;
   max-width: 1580px;
 
@@ -460,6 +460,74 @@ input[type="submit"] {
     font-size: 38px;
     visibility: hidden;
 }
+
+
+/*======================================
+
+
+Extra Styling
+
+======================================*/
+
+.more {
+  height: 1153px;
+  position: relative;
+  display: block;
+}
+
+.card {
+  border-radius: 40px;
+  background: linear-gradient(1deg, black, transparent);
+  color: #fff9ec;
+  padding: 50px;
+  width: 700px;
+  left: 27%;
+  position: absolute;
+  animation: hop 5s .5s ease-in-out infinite;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.card p {
+  font-size: 14px;
+  text-transform: none;
+  text-align: center;
+  line-height: 23px;
+}
+
+.card p::after {
+  content: "!";
+  color: white;
+  font-weight: bold;
+}
+
+.extra {
+  margin: 0 auto;
+  filter: grayscale(100%);
+  width: 400px;
+  transition: .5s;
+}
+
+.extra:hover {
+  filter: grayscale(0%);
+  width: 460px;
+  transition: .5s;
+}
+
+@keyframes hop {
+  0% {
+    top:630px;
+  }
+  50% {
+    top:650px;
+  }
+  100% {
+    top:630px;
+  }
+}
+
 /*======================================
 
 
