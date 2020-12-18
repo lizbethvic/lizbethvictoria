@@ -303,7 +303,8 @@ Art Styling
 
 ======================================*/
 
-.life-gallery {
+.life-gallery,
+.sketch-gallery {
   margin: 0 auto;
   width: 93%;
 }
@@ -317,8 +318,23 @@ Art Styling
 }
 
 .d8, .d9, .d10 {
-    height: 574px;
+  height: 574px;
+  margin-bottom: 115px
 }
+
+.b1, .b2, .b3, .b11 {
+  height: 488px;
+}
+
+.b4, .b5, .b9 {
+  height: 435px;
+}
+
+.b6, .b7, .b10 {
+  height: 434px;
+  margin-bottom: 115px;
+}
+
 /*======================================
 
 
