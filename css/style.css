@@ -342,9 +342,8 @@ Contact Styling
 
 ======================================*/
 
-section.contact-form {
-    display: inline;
-    background: #2a2236,
+.contact-form {
+  display: inline;
 }
 
 .container-left {
